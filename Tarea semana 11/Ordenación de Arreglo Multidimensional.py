@@ -29,6 +29,6 @@ fila_a_ordenar = 1
 ordenar_fila_matriz(matriz, fila_a_ordenar)
 
 # Mostrar la matriz con la fila ordenada
-print("\nMatriz con la fila", fila_a_ordenar, "ordenada:")
+print("\nMatriz con la fila", fila_a_ordenar, "ordenada.:")
 for fila in matriz:
     print(fila)
