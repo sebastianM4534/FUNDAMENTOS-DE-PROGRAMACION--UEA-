@@ -19,7 +19,7 @@ Numero_a_buscar =8
 #resultado
 Respuesta= buscar_el_valor(Matriz,Numero_a_buscar)
 if Respuesta:
-    print(f"el numero buscado {Numero_a_buscar} se encuentra en la posición:{Respuesta[0]},{Respuesta[1]}")
+    print(f"el numero buscado {Numero_a_buscar} se encuentra en la posición:{Respuesta[0]},{Respuesta[1]}.")
 else:
     print(f"el nuemro no se encontro en la matriz.")
 
