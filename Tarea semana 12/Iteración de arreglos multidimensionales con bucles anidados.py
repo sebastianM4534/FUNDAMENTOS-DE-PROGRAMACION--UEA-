@@ -122,5 +122,5 @@ for i in range(len(temperaturas)):
         for k in range(len(temperaturas[i][j])):
             suma += temperaturas[i][j][k]["temp"]
         promedio = suma / len(temperaturas[i][j])
-        print("  Semana", j + 1, "- Promedio de temperatura:", round(promedio, 2))
+        print("  Semana", j + 1, "- Promedio de temperatura:", round(promedio, 3))
     print()
